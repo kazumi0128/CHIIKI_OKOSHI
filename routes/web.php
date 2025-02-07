@@ -17,3 +17,13 @@ Route::get('/', function () {
         'youtubeVideoId' => '1u2AYEVskWs' // YouTube動画のIDを設定
     ]);
 });
+
+Route::get('/cm_award', function () {
+    return view('report.cm_award', [
+        'youtubeVideoId' => 'NQZy1GOk1dU' // ここにふるさとCM大賞の動画IDを設定
+    ]);
+});
+
+Route::get('/photo/{event}', function ($event) {
+    return view('report.photo_page', ['event' => $event]);
+});

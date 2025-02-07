@@ -54,21 +54,10 @@
             margin-bottom: 15px;
         }
 
-        .top-left {
-            background-color: #ffcccc;
-        }
-
-        .top-right {
-            background-color: #ccffcc;
-        }
-
-        .bottom-left {
-            background-color: #ccccff;
-        }
-
-        .bottom-right {
-            background-color: #ffffcc;
-        }
+        .top-left { background-color: #ffcccc; }
+        .top-right { background-color: #ccffcc; }
+        .bottom-left { background-color: #ccccff; }
+        .bottom-right { background-color: #ffffcc; }
 
         .button {
             display: inline-block;
@@ -82,9 +71,7 @@
             margin-left: 10px;
         }
 
-        .button:hover {
-            background-color: #0056b3;
-        }
+        .button:hover { background-color: #0056b3; }
 
         .back-button {
             margin-top: 20px;
@@ -96,9 +83,7 @@
             border-radius: 5px;
         }
 
-        .back-button:hover {
-            background-color: #0056b3;
-        }
+        .back-button:hover { background-color: #0056b3; }
     </style>
 </head>
 <body>
@@ -123,15 +108,15 @@
             <strong>発信</strong>
             <div>
                 インバウンドサミット <a href="#" class="button">成果物</a><br>
-                ふるさとCM大賞 <a href="#" class="button">成果物</a>
+                ふるさとCM大賞 <a href="{{ url('/cm_award') }}" class="button">成果物</a>
             </div>
         </div>
         <div class="cell bottom-right">
             <strong>その他</strong>
             <div>
-                1日 岩手山山開き <a href="#" class="button">写真</a><br>
-                7日 ほうれん草収穫体験 <a href="#" class="button">写真</a><br>
-                18日 ブロッコリー植え付け体験 <a href="#" class="button">写真</a><br>
+                1日 岩手山山開き <a href="{{ url('/photo/iwatesan') }}" class="button">写真</a><br>
+                7日 ほうれん草収穫体験 <a href="{{ url('/photo/hourensou') }}" class="button">写真</a><br>
+                18日 ブロッコリー植え付け体験 <a href="{{ url('/photo/broccoli') }}" class="button">写真</a><br>
                 20日 ラグビーフェスティバル
             </div>
         </div>
@@ -139,5 +124,3 @@
     <a href="{{ url('/') }}" class="back-button">戻る</a>
 </body>
 </html>
-
-
