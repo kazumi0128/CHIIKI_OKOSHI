@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>6月の活動</title>
+    <title>8月の活動</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -56,37 +56,39 @@
     </style>
 </head>
 <body>
-    <h1>6月の活動</h1>
+    <h1>8月の活動</h1>
     <div class="matrix">
         <div class="cell top-left">
             <strong>会議</strong>
             <div>
-                3日 道の駅総会<br>
-                10日 北緯40度物産会総会<br>
-                12日 地域おこし初任者研修<br>
-                20日 塚田農場打ち合わせ
+                26日 岩手県立大学セミナー<br>
+                30日 松っちゃん市場理事会
             </div>
         </div>
         <div class="cell top-right">
             <strong>イベント</strong>
             <div>
-                15日～16日 ラグビーフェスタ<br>
-                30日 プロレス(宮古)
+                15日 八幡平ふるさと花火まつり<br>
+                24日 県民の森ボランティア
             </div>
         </div>
         <div class="cell bottom-left">
             <strong>情報発信</strong>
             <div>
-                6日 FM岩手
+                岩手日報（ばっけそば、ほうれん草せんべい）<br>
+                北東北マガジン rakura（ばっけそば）<br>
+                塚田農場（ジオファーム八幡平）<br>
+                Facebook LIVE 21日間
             </div>
         </div>
         <div class="cell bottom-right">
             <strong>その他</strong>
             <div>
-                17日～18日 八幡平ワーケーション
+                （未入力）
             </div>
         </div>
     </div>
     <a href="{{ url('/') }}" class="back-button">戻る</a>
 </body>
 </html>
+
